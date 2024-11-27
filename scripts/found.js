@@ -16,7 +16,7 @@ const submit = async () => {
         content: content
     };
 
-    fetch('https://bhu-haat-api.onrender.com/api/lost', {
+    fetch('https://bhu-haat-api-qmvt.onrender.com/api/lost', {
         method: 'POST',
         headers: {
             'Accept': 'application/json',
