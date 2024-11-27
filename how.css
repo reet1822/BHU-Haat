@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+body {
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
+    min-height: 100vh;
+}
+
+footer {
+    margin-top: 80px;
+    box-shadow: 8px 0 8px 0 rgb(218, 73, 16);
+    position: sticky;
+    top: 100%;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 20px;
+    margin-right: 50px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: rgb(218, 73, 16);
+}
+
+.btn a:hover {
+    background-color: rgba(218, 73, 16, 0.8);
+}
+
+.main_line {
+    text-align: center;
+    color: #fff;
+    font-size: 80px;
+    font-family: 'Cookie', cursive;
+}
+
+.lost,
+.sell {
+    color: #fff;
+    font-size: 50px;
+    margin-left: 50px;
+    margin-top: 70px;
+}
+
+.found,
+.purchase {
+    color: #fff;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+@media screen and (max-width:900px) {
+    .logo {
+        width: 120px;
+    }
+
+    .main_line {
+        font-size: 50px;
+    }
+
+    .lost,
+    .sell {
+        font-size: 40px;
+    }
+
+    .found,
+    .purchase {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .main_line {
+        font-size: 40px;
+    }
+
+    .btn {
+        margin-right: 5px;
+        padding: 4px 8px;
+    }
+
+    .btn a {
+        font-size: 18px;
+    }
+
+    .logo {
+        width: 140px;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+
+    footer a img {
+        width: 25px;
+    }
+
+    .lost,
+    .sell {
+        font-size: 30px;
+    }
+
+    .found,
+    .purchase {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .main_line {
+        font-size: 30px;
+    }
+
+    .btn {
+        margin-right: 5px;
+        padding: 2px 4px;
+    }
+
+    .btn a {
+        font-size: 15px;
+    }
+
+    .logo {
+        width: 80px;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+
+    footer a img {
+        width: 20px;
+    }
+
+    .lost,
+    .sell {
+        font-size: 26px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .found,
+    .purchase {
+        font-size: 16px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}

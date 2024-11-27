@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
+    min-height: 100vh;
+}
+
+.navbar {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar .search {
+    width: 500px;
+    height: 38px;
+    border-radius: 12px;
+}
+
+.navbar .search input {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background-color: #fff;
+    font-size: 20px;
+    color: #000000;
+    padding-left: 10px;
+}
+
+#searchButton {
+    margin-left: 10px;
+    border-radius: 12px;
+}
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90vw;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.item {
+    background-color: #ee9617;
+    background-image: linear-gradient(315deg, #ee9617 0%, #fe5858 74%);
+    box-shadow: 10px 10px 20px 4px rgba(0, 0, 0, 0.9);
+    width: 300px;
+    height: auto;
+    margin: auto;
+    margin-top: 50px;
+    /* margin : 50px; */
+    float: left;
+    border-radius: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer {
+    box-shadow: 8px 0 8px 0 rgb(218, 73, 16);
+    position: sticky;
+    top: 100%;
+}
+
+#searchButton {
+    background-color: #ee9617;
+    /* background-color: black; */
+    background-image: linear-gradient(315deg, #ee9617 0%, #fe5858 74%);
+    color: #fff;
+}
+
+#searchButton:hover {
+    background-color: #ee94179c;
+    background-image: linear-gradient(315deg, #ee941791 0%, #fe5858ac 74%);
+}
+
+.recent {
+    text-align: center;
+    color: #fff;
+    margin-top: 40px;
+}
+
+.logo {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 120px;
+    height: auto;
+    margin: -10px 30px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.btn2 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 20px;
+    margin-right: 50px;
+}
+
+.btn2 a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: rgb(218, 73, 16);
+}
+
+.btn2 a:hover {
+    background-color: rgba(218, 73, 16, 0.8);
+}
+
+.imageContainer {
+    width: 70%;
+    height: 200px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.9);
+}
+
+.item p {
+    font-size: 25px;
+    color: #fff;
+    margin: -4px;
+    text-align: center;
+}
+
+@media screen and (max-width:1100px) {
+    .navbar {
+        margin-top: 70px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .logo {
+        width: 80px;
+        margin: 8px 2px;
+    }
+
+    .btn2 {
+        margin-right: 5px;
+        padding: 4px 8px;
+    }
+
+    .btn2 a {
+        font-size: 18px;
+    }
+
+    .navbar .search {
+        width: 44vw;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .logo {
+        width: 70px;
+        margin: 8px 2px;
+    }
+
+    .btn2 {
+        margin-right: 5px;
+        padding: 2px 4px;
+    }
+
+    .btn2 a {
+        font-size: 16px;
+    }
+
+    .navbar .search {
+        width: 45vw;
+        height: 28px;
+    }
+
+    #searchButton {
+        font-size: 10px;
+        padding: 5px;
+    }
+
+    #searchButton svg {
+        width: 20%;
+        height: 20%;
+    }
+
+    .navbar .search input {
+        font-size: 14px;
+    }
+
+    .item p {
+        font-size: 20px;
+    }
+
+    .imageContainer {
+        height: 35%;
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .logo {
+        width: 60px;
+        margin: 8px 2px;
+    }
+
+    .btn2 {
+        margin-right: 5px;
+        margin-top: 30px;
+        padding: 2px 4px;
+    }
+
+    .btn2 a {
+        font-size: 12px;
+    }
+
+    .navbar .search {
+        width: 60vw;
+    }
+
+    #searchButton {
+        font-size: 10px;
+        padding: 3px;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+
+    footer a img {
+        width: 25px;
+    }
+}
