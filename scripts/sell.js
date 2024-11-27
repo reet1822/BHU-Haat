@@ -14,7 +14,7 @@ const submit = async () => {
         imageURL: imageURL,
     };
 
-    fetch('https://bhu-haat-api.onrender.com/api/sell', {
+    fetch('https://bhu-haat-api-qmvt.onrender.com/api/sell', {
         method: 'POST',
         headers: {
             'Accept': 'application/json',
