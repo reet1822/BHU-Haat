@@ -16,7 +16,7 @@ const showItem = (Item) => {
 }
 
 const fetchLostItems = () => {
-    fetch('https://bhu-haat-api.onrender.com/api/sell')
+    fetch('https://bhu-haat-api-qmvt.onrender.com/api/sell')
         .then(response => response.json())
         .then(data => data.map(Item => {
             showItem(Item);
@@ -27,7 +27,7 @@ const fetchLostItems = () => {
 fetchLostItems();
 
 const search = (val) => {
-    api = 'https://bhu-haat-api.onrender.com/api/sell';
+    api = 'https://bhu-haat-api-qmvt.onrender.com/api/sell';
     if (val != '') {
         api += `?name=${val}`
     }
