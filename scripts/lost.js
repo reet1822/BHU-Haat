@@ -16,7 +16,7 @@ const showItem = (Item) => {
 }
 
 const fetchLostItems = () => {
-    fetch('https://bhu-haat-api.onrender.com/api/lost')
+    fetch('https://bhu-haat-api-qmvt.onrender.com/api/lost')
         .then(response => response.json())
         .then(data => data.map(Item => {
             showItem(Item);
