@@ -27,7 +27,7 @@ const fetchLostItems = () => {
 fetchLostItems();
 
 const search = (val) => {
-    api = 'https://bhu-haat-api.onrender.com/api/lost';
+    api = 'https://bhu-haat-api-qmvt.onrender.com/api/lost';
     if (val != '') {
         api += `?name=${val}`
     }
