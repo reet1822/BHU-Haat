@@ -10,7 +10,7 @@ const submit = async () => {
         message: message
     };
 
-    fetch('https://bhu-haat-api.onrender.com/api/message', {
+    fetch('https://bhu-haat-api-qmvt.onrender.com/api/message', {
         method: 'POST',
         headers: {
             'Accept': 'application/json',
